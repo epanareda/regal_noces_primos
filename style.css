@@ -145,7 +145,7 @@ a {
     #combination {
         display: grid;
         grid-template-columns: repeat(7, 1fr);
-        gap: 5px;
+        gap: 3px;
     }
     
     .number {
@@ -181,7 +181,7 @@ a {
         text-shadow: none;
         border: 5px solid black;
         border-radius: 25%;
-        padding: 10px;
+        padding: 5px;
         color: rgb(216, 216, 216);
         background-color: rebeccapurple;
     }
