@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style-challenge.css">
+        <title>REGAL NOCES PRIMOS</title>
+    </head>
+    <body>
+        <!-- back background -->
+        <div id="main-background"></div>
+        
+        <!-- headear with the title -->
+        <header>
+            <h1>DAVID I MIRIAM</h1>
+        </header>
+        <hr>
+        <br>
+
+        <!-- Content with the video of the challenge and the video from its solution -->
+        <h2>Prova</h2>
+        <video controls id="video-challenge">
+            <source src="movie.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>
+
+        <br><br>
+
+        <h2>Solució</h2>
+        <p>
+            La solució de la prova està pendent.
+        </p>
+
+        <div id="file-container">
+            <form>
+                <label>Insereix aquí l'arxiu que corrobori que heu realitzat la prova:</label>
+                <input type="file" id="file">
+            </form>
+            <button id="send-button">
+                ENVIA
+            </button>
+        </div>
+        
+        <p>
+            (Si ja heu enviat la solució, espereu a rebre noticies dels avaluadors)
+        </p>
+        <!-- <video controls id="video-solution">
+            <source src="movie.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>
+        <br> -->
+        <br>
+
+        <h2>El número d'aquesta prova és:</h2>
+        <p class="big">
+            ?
+        </p>
+
+        <br><br>
+
+        <!-- button to return to the index page -->
+        <footer>
+            <a href="index.html" id="return">
+                <img src="images/left-arrows.png" alt="back" id="return-img">
+                <p>ENRERE</p>
+            </a>
+        </footer>
+    </body>
+    <script src="send-file.js"></script>
+</html>

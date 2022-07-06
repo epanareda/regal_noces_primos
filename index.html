@@ -31,7 +31,7 @@
                 <h2>CAIXA FORTA</h2>
                 <!-- Números de la combinació -->
                 <div id="combination">
-                    <select name="" id="" class="number">
+                    <select name="num1" id="num1" class="number">
                         <option value="0">0</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -43,7 +43,7 @@
                         <option value="8">8</option>
                         <option value="9">9</option>
                     </select>
-                    <select name="" id="" class="number">
+                    <select name="num2" id="num2" class="number">
                         <option value="0">0</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -55,7 +55,7 @@
                         <option value="8">8</option>
                         <option value="9">9</option>
                     </select>
-                    <select name="" id="" class="number">
+                    <select name="num3" id="num3" class="number">
                         <option value="0">0</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -67,7 +67,7 @@
                         <option value="8">8</option>
                         <option value="9">9</option>
                     </select>
-                    <select name="" id="" class="number">
+                    <select name="num4" id="num4" class="number">
                         <option value="0">0</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -79,7 +79,7 @@
                         <option value="8">8</option>
                         <option value="9">9</option>
                     </select>
-                    <select name="" id="" class="number">
+                    <select name="num5" id="num5" class="number">
                         <option value="0">0</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -91,7 +91,7 @@
                         <option value="8">8</option>
                         <option value="9">9</option>
                     </select>
-                    <select name="" id="" class="number">
+                    <select name="num6" id="num6" class="number">
                         <option value="0">0</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -103,7 +103,7 @@
                         <option value="8">8</option>
                         <option value="9">9</option>
                     </select>
-                    <select name="" id="" class="number">
+                    <select name="num7" id="num7" class="number">
                         <option value="0">0</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -117,15 +117,22 @@
                     </select>
                 </div>
                 <!-- Boto de comprovació -->
-                <button id="safe-button">
-                    <img src="images/lock-closed.png" alt="open button" class="lock-img">
-                </button>
+                <div id="lock-container">
+                     <button id="safe-button">
+                        <img src="images/lock-closed.png" alt="open button" class="lock-img">
+                    </button>
+                    <button id="safe-handler">
+                        OBRE
+                        <img src="images/right-arrow.png" alt="safe-handler" class="handler-img">
+                    </button>
+                </div>
+               
                 <!-- Link al mapa/ubicació del regal -->
             </div>
             <!-- Introducció de les proves -->
             <br>
             <p>
-                La combinació que obra aquesta caixa forta esta formada pels números que obtindreu al 
+                La combinació que obre aquesta caixa forta està formada pels números que obtindreu al 
                 resoldre cada una de les proves que us hem preparat. Aquestes proves les podeu trobar 
                 llistades tot seguit.
             </p>
@@ -136,7 +143,7 @@
             <br>
             <!-- Llista amb els enllaços a les proves de cada parella -->
             <div id="challenges-content">
-                <a href="">
+                <a href="challengeDM.html">
                     <div class="challenge">
                         David i Míriam
                     </div>
@@ -177,4 +184,5 @@
 
         </footer>
     </body>
+    <script src="app.js"></script>
 </html>

@@ -59,24 +59,40 @@ a {
     font-size: 100px;
 }
 
+#lock-container {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    align-items: center;
+    justify-content: space-evenly;
+    width: inherit;
+}
+
 #safe-button {
     margin: 40px;
     padding: 10px;
     border-radius: 50%;
+    grid-column: 2;
 }
-
-#safe-button:hover {
-    background-color: rgb(207, 207, 207);
-}
-
-#safe-button:active {
-    background-color: grey;
-}
-
 
 .lock-img {
     width: 70px;
     height: 70px;
+}
+
+.handler-img {
+    width: 50px;
+    height: 50px;
+}
+
+#safe-handler {
+    margin: 0 60px;
+    padding: 5px;
+    border-radius: 50%;
+    grid-column: 3;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    visibility: hidden;
 }
 
 #challenges-content {
@@ -117,7 +133,7 @@ a {
     }
 
     #main-background {
-        height: 1150px;
+        height: 1100px;
         background-image: url("images/small-wedding-rings.png");
     }
     
@@ -152,16 +168,39 @@ a {
         text-align: center;
         font-size: 15px;
     }
+
+    #lock-container {
+        grid-template-columns: repeat(3, 1fr);
+        height: 100px;
+    }
     
     #safe-button {
         margin: 15px;
         padding: 10px;
         border-radius: 50%;
+        grid-column: 2;
+        height: 80px;
+    }
+
+    #safe-handler {
+        margin: 0 25px;
+        padding: 5px;
+        border-radius: 50%;
+        grid-column: 3;
     }
     
     .lock-img {
         width: 50px;
         height: 50px;
+    }
+
+    .handler-img {
+        width: 30px;
+        height: 30px;
+    }
+
+    #safe-handler {
+        font-size: 10px;
     }
     
     #challenges-content {
