@@ -40,7 +40,7 @@ a {
 }
 
 #safe-box {
-    height: 270px;
+    height: 320px;
     border: 5px solid black;
     border-radius: 15%;
     padding: 50px;
@@ -57,6 +57,57 @@ a {
 .number {
     text-align: center;
     font-size: 100px;
+}
+
+.num-selector {
+    background-color: white;
+    border-radius: 10%;
+}
+
+.num-selector-opened {
+    background-color: rgb(255, 255, 255, 0.6);
+    border-radius: 10%;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.up-button {
+    background-color: white;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+.up-button-opened {
+    background-color: rgb(255, 255, 255, 0);
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+.down-button {
+    background-color: white;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.down-button-opened {
+    background-color: rgb(255, 255, 255, 0);
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.up-button:hover, .down-button:hover {
+    background-color: rgb(171, 201, 211);
+}
+
+.up-button:active, .down-button:active {
+    color: white;
 }
 
 #lock-container {
@@ -133,7 +184,7 @@ a {
     }
 
     #main-background {
-        height: 1100px;
+        height: 1180px;
         background-image: url("images/small-wedding-rings.png");
     }
     
@@ -151,7 +202,7 @@ a {
     }
 
     #safe-box {
-        height: 155px;
+        height: 185px;
         border: 5px solid black;
         border-radius: 15%;
         padding: 10px 0px;
@@ -166,7 +217,7 @@ a {
     
     .number {
         text-align: center;
-        font-size: 15px;
+        font-size: 20px;
     }
 
     #lock-container {
@@ -179,28 +230,26 @@ a {
         padding: 10px;
         border-radius: 50%;
         grid-column: 2;
-        height: 80px;
+        height: 60px;
     }
 
     #safe-handler {
-        margin: 0 25px;
+        margin: 0 40px 0 0;
         padding: 5px;
         border-radius: 50%;
         grid-column: 3;
+        font-size: 7px;
     }
     
     .lock-img {
-        width: 50px;
-        height: 50px;
+        width: 35px;
+        height: 35px;
     }
 
     .handler-img {
-        width: 30px;
-        height: 30px;
-    }
-
-    #safe-handler {
-        font-size: 10px;
+        width: 20px;
+        height: 20px;
+        margin: 0 auto;
     }
     
     #challenges-content {

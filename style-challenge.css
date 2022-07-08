@@ -117,7 +117,7 @@ video {
     }
 
     video {
-        width: 300px;
+        width: 260px;
     }
 
     #return{
@@ -126,6 +126,6 @@ video {
 
     #file-container{
         padding: 10px;
-        width: 270px;
+        width: 238px;
     }
 }
