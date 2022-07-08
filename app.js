@@ -1,5 +1,5 @@
 // Safe combination
-var combination = [0,0,0,0,0,0,0]
+var combination = [1,9,1,0,1,9,1]
 var opened = false
 
 // button to change the number of the safe combination
