@@ -1,6 +1,11 @@
 // Safe combination
-var combination = [1,9,1,0,1,9,1]
+var combination = [1,0,0,0,0,0,0]
 var opened = false
+
+// Safe sounds
+var correct_snd = new Audio("audio/correct.mp3")
+var incorrect_snd = new Audio("audio/incorrect.mp3")
+
 
 // button to change the number of the safe combination
 var btn_up_1 = document.getElementById("up-1")
@@ -39,11 +44,13 @@ var open_btn = document.getElementById("safe-handler")
 button.addEventListener("click", function() {
     result = get_combination()
     if(result) {
-        alert("VAMOS ALLA!!!")
+        correct_snd.play()
+        alert("CORRECTEEEE!!!!!! Com us hem fet suar la cansalada eeh??💗")
         unlock_safe()
     }
     else {
-        alert("MEEEEEEC!!!\nIncorrecte!\nA veure si estem més el cas... ¬¬")
+        incorrect_snd.play()
+        alert("MEEEEEEC!!!\nIncorrecte!!!")
         reset_combination()
     }
     

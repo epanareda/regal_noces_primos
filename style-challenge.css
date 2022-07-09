@@ -34,7 +34,8 @@ button {
     right: 0;
     position: absolute;
     z-index: -1;
-    height: 1870px;
+    /* height: 1950px; */
+    height: 2000px;
     background-image: url("images/wedding-rings.png");
     opacity: .10;
 }
@@ -101,7 +102,7 @@ video {
         margin-top: 10px;
         margin-bottom: 25px;
         text-align: center;
-        font-size: 12px;
+        font-size: 10px;
     }
     
     button {
@@ -112,12 +113,15 @@ video {
     }
 
     #main-background {
-        height: 1150px;
+        height: 1170px;
+        /* height: 1030px; */
         background-image: url("images/small-wedding-rings.png");
     }
 
     video {
         width: 260px;
+        height: 147px;
+        background-color: black;
     }
 
     #return{

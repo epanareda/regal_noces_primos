@@ -20,7 +20,7 @@
         <!-- Content with the video of the challenge and the video from its solution -->
         <h2>Prova</h2>
         <video controls id="video-challenge">
-            <source src="movie.mp4" type="video/mp4">
+            <source src="videos/challenges/video_DM.mp4" type="video/mp4">
             <source src="movie.ogg" type="video/ogg">
             Your browser does not support the video tag.
         </video>
@@ -33,13 +33,11 @@
         </p>
 
         <div id="file-container">
-            <form>
+            <form action="https://formsubmit.co/juanperepescador@gmail.com" method="POST" enctype="multipart/form-data">
                 <label>Insereix aquí l'arxiu que corrobori que heu realitzat la prova:</label>
-                <input type="file" id="file">
-            </form>
-            <button id="send-button">
-                ENVIA
-            </button>
+                <input type="file" name="attachment" accept="video/*, image/*">
+                <button type="submit">ENVIA</button>
+           </form>
         </div>
         
         <p>
@@ -68,5 +66,4 @@
             </a>
         </footer>
     </body>
-    <script src="send-file.js"></script>
 </html>

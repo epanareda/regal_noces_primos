@@ -260,7 +260,7 @@ a {
         display: grid;
         grid-template-columns: repeat(3, 90px);
         justify-content: space-evenly;
-        gap: 10px;
+        gap: 10px 1px;
         background-color: rgba(50, 50, 50);
     }
     
@@ -269,7 +269,7 @@ a {
         text-shadow: none;
         border: 5px solid black;
         border-radius: 25%;
-        padding: 5px;
+        padding: -5px;
         color: rgb(216, 216, 216);
         background-color: rebeccapurple;
     }
