@@ -46,7 +46,6 @@ video {
 
 #return {
     text-decoration: none;
-    color: inherit;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
@@ -91,6 +90,28 @@ video {
     color: rgb(216, 216, 216);
 }
 
+#send-text {
+    margin: 0 0 30px 0;
+}
+
+#send-button {
+    text-decoration: none;
+    color: inherit;
+    margin-top: 10px;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 25%;
+    background-color: rebeccapurple;
+}
+
+#send-button:hover {
+    color: rgb(103, 158, 231);
+}
+
+#send-button:active {
+    color: black;
+}
+
 @media only screen and (max-width: 1200px) {
     
     body {
@@ -131,5 +152,16 @@ video {
     #file-container{
         padding: 10px;
         width: 238px;
+        height: 125px;
+        font-size: 12px;
+    }
+
+    #send-text {
+        margin-bottom: 25px;
+    }
+    
+    #send-button {
+        padding: 10px;
+        font-size: 15px;
     }
 }
