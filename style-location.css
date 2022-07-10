@@ -2,7 +2,7 @@ body {
     padding: 50px 150px;
     text-align: center;
     font-weight: bolder;
-    font-size: 75px;
+    font-size: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: rgb(228, 200, 255);
 }
@@ -18,17 +18,77 @@ body {
     z-index: -1;
     background-image: url("images/wedding-rings.png");
     opacity: .10;
+    height: 1200px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+p {
+    margin: 0;
+}
+
+#map {
+    width: 1000px;
+    height: 600px;
+    border: 0;
+}
+
+#return {
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 5px;
+    margin: 20px auto;
+    width: 150px;
+    padding: 15px;
+    border: 5px solid black;
+    border-radius: 25%;
+    background-color: rebeccapurple;
+    color: rgb(216, 216, 216);
+}
+
+#return:hover {
+    color: rgb(103, 158, 231);
+}
+
+#return:active {
+    color: black;
+}
+
+#return > p {
+    margin: 0px;
+}
+
+#return-img {
+    width: 20px;
 }
 
 @media only screen and (max-width: 1200px) {
     
     body {
         padding: 10px 30px;
-        font-size: 50px;
+        font-size: 17px;
     }
 
     #main-background {
         background-image: url("images/small-wedding-rings.png");
+        height: 620px;
     }
 
+    h1 {
+        font-size: 30px;
+    }
+
+    #return{
+        width: 90px;
+    }
+
+    #map {
+        width: 250px;
+        height: 200px;
+    }
 }
