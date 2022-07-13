@@ -1,5 +1,5 @@
 // Safe combination
-var combination = [1,0,0,0,0,0,0]
+var combination = [7,3,6,2,0,7,4]
 var opened = false
 
 // Safe sounds
