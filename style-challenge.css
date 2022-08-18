@@ -35,7 +35,7 @@ button {
     position: absolute;
     z-index: -1;
     /* height: 1950px; */
-    height: 2000px;
+    height: 2450px;
     background-image: url("images/wedding-rings.png");
     opacity: .10;
 }
@@ -117,8 +117,8 @@ video {
 }
 
 #img-solution {
-    width: 260px;
-    height: 260px;
+    width: 900px;
+    height: 900px;
     object-fit: cover;
 }
 
@@ -177,5 +177,10 @@ video {
 
     #big-size-text {
         margin-top: 25px;
+    }
+    
+    #img-solution {
+        width: 260px;
+        height: 260px;
     }
 }
