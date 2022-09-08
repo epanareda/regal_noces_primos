@@ -40,7 +40,7 @@ button {
     opacity: .10;
 }
 
-video {
+video, embed {
     width: 900px;
 }
 
@@ -149,7 +149,7 @@ video {
         background-image: url("images/small-wedding-rings.png");
     }
 
-    video {
+    video, embed {
         width: 260px;
         height: 147px;
         background-color: black;
