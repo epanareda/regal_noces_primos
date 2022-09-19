@@ -122,6 +122,12 @@ video, embed {
     object-fit: cover;
 }
 
+#big-img-solution {
+    width: 900px;
+    height: 675px;
+    object-fit: cover;
+}
+
 @media only screen and (max-width: 1200px) {
     
     body {
@@ -182,5 +188,11 @@ video, embed {
     #img-solution {
         width: 260px;
         height: 260px;
+    }
+
+    #big-img-solution {
+        width: 260px;
+        height: 195px;
+        object-fit: cover;
     }
 }
