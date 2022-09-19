@@ -18,7 +18,7 @@ body {
     z-index: -1;
     background-image: url("images/wedding-rings.png");
     opacity: .10;
-    height: 1200px;
+    height: 1445px;
 }
 
 h1 {
@@ -76,7 +76,7 @@ p {
 
     #main-background {
         background-image: url("images/small-wedding-rings.png");
-        height: 620px;
+        height: 800px;
     }
 
     h1 {
